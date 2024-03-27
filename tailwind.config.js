@@ -5,11 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      screens: {
-        'md': '980px', // Define medium screen size
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
