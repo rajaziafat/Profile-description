@@ -1,88 +1,12 @@
-import { useEffect, useState } from 'react'
-import Select from 'react-select';
 
 function Card() {
 
-    const [countries, setCountries] = useState([]);
-    const [cities, setCities] = useState([]);
-    const [selectedCountry, setSelectedCountry] = useState('');
-
-    useEffect(() => {
-        fetchCountries();
-    }, []);
-
-    const fetchCountries = async () => {
-        try {
-            const response = await fetch('https://restcountries.com/v3.1/all');
-            const data = await response.json();
-            const formattedCountries = data.map(country => ({
-                label: country.name.common,
-                value: country.cca2,
-            }));
-            setCountries(formattedCountries);
-        } catch (error) {
-            console.error('Error fetching countries:', error);
-        }
-    };
-
-    const handleCountryChange = selectedOption => {
-        setSelectedCountry(selectedOption);
-    };
-    const fetchCities = async (countryCode) => {
-        if (!countryCode) return; // Exit if no country code is provided
-
-        try {
-            // Fetch cities for the selected country
-            const response = await fetch(`YOUR_CITY_API_ENDPOINT?countryCode=${countryCode}`);
-            const data = await response.json();
-            setCities(data); // Assuming data is an array of cities
-        } catch (error) {
-            console.error(`Error fetching cities for ${countryCode}:`, error);
-            // Optionally, you can set cities to an empty array or handle the error differently
-        }
-    };
-    const [selectedOption, setSelectedOption] = useState(null);
-    const customStyles = {
-        control: (provided, state) => ({
-            ...provided,
-            backgroundColor: 'transparent',
-            border: '2px solid #555',
-            borderColor: state.isFocused ? '#555' : '#555',
-            borderRadius: '5px',
-            padding: '2px',
-            boxShadow: state.isFocused ? '0 0 0 1px #555' : 'none',
-        }),
-        option: (provided, state) => ({
-            ...provided,
-            backgroundColor: state.isSelected ? '#21c55e' : '#333',
-            '&:hover': {
-                backgroundColor: 'RGBA(33,171,83,0.5)', // Light purple with opacity
-            },
-        }),
-        singleValue: (provided, state) => ({
-            ...provided,
-            color: '#fff', // Adjust text color to white
-        }),
-        input: (provided, state) => ({
-            ...provided,
-            color: '#fff',
-            '&::placeholder': {
-                color: '#fff !important', // Adjust placeholder color here
-            },
-        }),
-        menu: (provided, state) => ({
-            ...provided,
-            backgroundColor: '#333',
-            color: '#fff', // Adjust dropdown menu background color
-            zIndex: 9999, // Set the z-index value as needed
-        }),
-    };
 
 
 
     return (
         <div>
-            <div className='grid grid-cols-12 bg-[#333] rounded-lg max-w-[1400px] gap-2 '>
+            <div className='grid grid-cols-12  bg-[#333] rounded-lg max-w-[1400px] gap-2 '>
                 <div className='col-span-12 md:col-span-6'>
 
                     <div className="relative   rounded-lg  overflow-hidden  fontt">
@@ -161,12 +85,12 @@ function Card() {
 
                 </div>
 
-                <div className='col-span-12 md:col-span-6'>
+                <div className='col-span-12 md:col-span-6 '>
                     <div className='grid grid-cols-12'>
                         <div className='col-span-12'>
                             <h1 className='text-xl px-2 py-2  text-white'>Where am i</h1>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative mt-2'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
@@ -178,7 +102,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative mt-2'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
@@ -190,7 +114,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative mt-2'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
@@ -202,7 +126,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative mt-2'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
@@ -216,8 +140,8 @@ function Card() {
                         </div>
                     </div>
                     <div className='grid grid-cols-12'>
-                      
-                        <div className='col-span-12 md:col-span-3'>
+
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
@@ -229,7 +153,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
@@ -241,7 +165,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
@@ -253,7 +177,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                             <div className='py-2 px-2 relative'>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
@@ -267,107 +191,109 @@ function Card() {
                         </div>
                     </div>
                     <div className='grid grid-cols-12'>
-                      
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>1.03.2024</p>
-                              </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative '>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
-
-
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
-
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>2.04.2024</p>
-                              </div>
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>1.03.2024</p>
+                                </div>
 
 
 
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative'>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative '>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>United States</p>
-                              </div>
-
-
-
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative'>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
-
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>Los Angeles</p>
-                              </div>
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>2.04.2024</p>
+                                </div>
 
 
 
-                          </div>
-                      </div>
-                  </div>
-                  <div className='grid grid-cols-12'>
-                      
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative'>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>1.03.2024</p>
-                              </div>
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>United States</p>
+                                </div>
 
 
 
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative'>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>2.04.2024</p>
-                              </div>
-
-
-
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative'>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
-
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>United States</p>
-                              </div>
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>Los Angeles</p>
+                                </div>
 
 
 
-                          </div>
-                      </div>
-                      <div className='col-span-12 md:col-span-3'>
-                          <div className='py-2 px-2 relative'>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='grid grid-cols-12'>
 
-                              <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-lg text-white'>Los Angeles</p>
-                              </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative '>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>1.03.2024</p>
+                                </div>
 
 
 
-                          </div>
-                      </div>
-                  </div>
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative '>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
+
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>2.04.2024</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative'>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>United States</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                            <div className='py-2 px-2 relative'>
+                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+
+                                <div className='border border-white rounded-md'>
+                                    <p className='py-1 px-2 text-lg text-white'>Los Angeles</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                
+
                 </div>
             </div>
         </div>
