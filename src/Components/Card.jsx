@@ -141,7 +141,7 @@ function Card() {
 
                     <div className='grid grid-cols-12 mt-2 '>
 
-                        <div className='col-span-2'>
+                        <div className='col-span-3 lg:col-span-2 '>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -152,7 +152,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-2'>
+                        <div className='col-span-3 lg:col-span-2 '>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -163,7 +163,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-4'>
+                        <div className='col-span-3 lg:col-span-4 '>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -174,7 +174,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-4'>
+                        <div className='col-span-3 lg:col-span-4 '>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -187,56 +187,9 @@ function Card() {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-12  '>
+                    <div className='grid grid-cols-12 mt-2 '>
 
-                        <div className='col-span-2'>
-                            <div className=' py-0.5 px-0.5 relative '>
-
-                                <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-2'>
-                            <div className=' py-0.5 px-0.5 relative '>
-
-                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-4'>
-                            <div className=' py-0.5 px-0.5 relative '>
-
-                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-4'>
-                            <div className=' py-0.5 px-0.5 relative '>
-
-                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className='grid grid-cols-12  '>
-
-<div className='col-span-2'>
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -247,7 +200,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-2'>
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -258,7 +211,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -269,7 +222,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -282,9 +235,58 @@ function Card() {
 </div>
 </div>
 
-<div className='grid grid-cols-12  '>
 
-<div className='col-span-2'>
+<div className='grid grid-cols-12 mt-2 '>
+
+<div className='col-span-3 lg:col-span-2 '>
+    <div className=' py-0.5 px-0.5 relative '>
+
+        <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
+            <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+        </div>
+
+
+
+    </div>
+</div>
+<div className='col-span-3 lg:col-span-2 '>
+    <div className=' py-0.5 px-0.5 relative '>
+
+    <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
+            <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+        </div>
+
+
+
+    </div>
+</div>
+<div className='col-span-3 lg:col-span-4 '>
+    <div className=' py-0.5 px-0.5 relative '>
+    <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+        </div>
+
+
+
+    </div>
+</div>
+<div className='col-span-3 lg:col-span-4 '>
+    <div className=' py-0.5 px-0.5 relative '>
+
+    <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+        </div>
+
+
+
+    </div>
+</div>
+</div>
+
+
+<div className='grid grid-cols-12 mt-2 '>
+
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -295,7 +297,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-2'>
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -306,7 +308,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -317,7 +319,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -330,9 +332,10 @@ function Card() {
 </div>
 </div>
 
-<div className='grid grid-cols-12  '>
 
-<div className='col-span-2'>
+<div className='grid grid-cols-12 mt-2 '>
+
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -343,7 +346,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-2'>
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -354,7 +357,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -365,7 +368,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -378,9 +381,10 @@ function Card() {
 </div>
 </div>
 
-<div className='grid grid-cols-12  '>
 
-<div className='col-span-2'>
+<div className='grid grid-cols-12 mt-2 '>
+
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -391,7 +395,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-2'>
+<div className='col-span-3 lg:col-span-2 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -402,7 +406,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -413,7 +417,7 @@ function Card() {
 
     </div>
 </div>
-<div className='col-span-4'>
+<div className='col-span-3 lg:col-span-4 '>
     <div className=' py-0.5 px-0.5 relative '>
 
         <div className='border border-gray-600 rounded-md'>
@@ -425,6 +429,8 @@ function Card() {
     </div>
 </div>
 </div>
+
+
 
 
 
