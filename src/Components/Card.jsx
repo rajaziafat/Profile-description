@@ -19,7 +19,7 @@ function Card() {
                                         <img className='w-10 h-10 filter invert' src='/diamond.svg' alt="" />
                                     </div>
                                     <div className='cursor-pointer'>
-                                        <img className='w-6 h-6 mt-2' src='/dropdown.svg' alt="" />
+                                        <img className='w-6 h-6 ' src='/dropdown.svg' alt="" />
 
                                     </div>
                                 </div>
@@ -28,18 +28,18 @@ function Card() {
                                         <div>
                                             <p className='text-lg '>InDifferent Studios</p>
                                             <p className='text-[12px] md:text-sm  '>Peter Bob  </p>
-                                            <p className='text-xs md:text-sm mt-2  opacity-80'>Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography</p>
+                                            <p className='text-xs md:text-sm   opacity-80'>Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography</p>
                                         </div>
                                         <div className='cursor-pointer'>
                                             <p className=' whitespace-nowrap'>Photographer</p>
-                                            <p className='text-end   text-md mt-2'>218k</p>
+                                            <p className='text-end   text-md '>218k</p>
 
                                         </div>
                                     </div>
-                                    <div className="flex justify-between mt-2 items-center w-full text-white">
+                                    <div className="flex justify-between  items-center w-full text-white">
                                         <div>
 
-                                            <p className='text-sm   mt-2'>Los Angeles-California (United States)</p>
+                                            <p className='text-sm   '>Los Angeles-California (United States)</p>
                                         </div>
                                         <div className='cursor-pointer'>
 
@@ -87,14 +87,14 @@ function Card() {
 
                 <div className='col-span-12 md:col-span-6 h-[500px] lg:h-[700px] overflow-y-auto px-2 '>
                     <div className='col-span-12 sticky top-0 z-50 bg-[#333] '>
-                        <h1 className='text-xl px-2 py-2  text-white'>Where am i</h1>
-                        <div className='grid grid-cols-12  sticky top-0 z-50  rounded-md font-bold'>
+                        <h1 className='text-xl px-2 py-1  text-white'>Where am i</h1>
+                        <div className='grid grid-cols-12  sticky top-0 z-50  rounded-md font-[400]'>
 
                             <div className='col-span-3'>
-                                <div className=' px-1 relative '>
+                                <div className=' py-0.5 px-0.5 relative '>
 
 
-                                    <div className='border border-white rounded-md'>
+                                    <div className='  rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>From</p>
                                     </div>
 
@@ -103,9 +103,9 @@ function Card() {
                                 </div>
                             </div>
                             <div className='col-span-3'>
-                                <div className=' px-1 relative '>
+                                <div className=' py-0.5 px-0.5 relative '>
 
-                                    <div className='border border-white rounded-md'>
+                                <div className='  rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>To</p>
                                     </div>
 
@@ -114,9 +114,9 @@ function Card() {
                                 </div>
                             </div>
                             <div className='col-span-3'>
-                                <div className=' px-1 relative '>
+                                <div className=' py-0.5 px-0.5 relative '>
 
-                                    <div className='border border-white rounded-md'>
+                                <div className=' border-gray-600 rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>Country</p>
                                     </div>
 
@@ -125,9 +125,9 @@ function Card() {
                                 </div>
                             </div>
                             <div className='col-span-3'>
-                                <div className=' px-1 relative '>
+                                <div className=' py-0.5 px-0.5 relative '>
 
-                                    <div className='border border-white rounded-md'>
+                                <div className=' border-gray-600 rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>City</p>
                                     </div>
 
@@ -139,12 +139,12 @@ function Card() {
                     </div>
 
 
-                    <div className='grid grid-cols-12 mt-2'>
+                    <div className='grid grid-cols-12 mt-2 '>
 
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -153,9 +153,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -164,9 +164,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -175,9 +175,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
@@ -190,9 +190,9 @@ function Card() {
                     <div className='grid grid-cols-12'>
 
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600  rounded-md bg-[#3e6b44]'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -201,9 +201,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -212,9 +212,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -223,9 +223,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
@@ -237,9 +237,9 @@ function Card() {
                     <div className='grid grid-cols-12'>
 
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -248,9 +248,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -259,9 +259,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -270,57 +270,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='grid grid-cols-12'>
-
-                        <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
-
-                                <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
-
-                                <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
-
-                                <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
-
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
@@ -333,9 +285,9 @@ function Card() {
                     <div className='grid grid-cols-12'>
 
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -344,9 +296,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -355,9 +307,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -366,9 +318,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
@@ -381,9 +333,9 @@ function Card() {
                     <div className='grid grid-cols-12'>
 
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -392,9 +344,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -403,9 +355,9 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -414,9 +366,57 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-3'>
-                            <div className='py-2 px-1 relative '>
+                            <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-white rounded-md'>
+                                <div className='border border-gray-600 rounded-md'>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='grid grid-cols-12'>
+
+                        <div className='col-span-3'>
+                            <div className=' py-0.5 px-0.5 relative '>
+
+                                <div className='border border-gray-600 rounded-md'>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div className='col-span-3'>
+                            <div className=' py-0.5 px-0.5 relative '>
+
+                                <div className='border border-gray-600 rounded-md'>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div className='col-span-3'>
+                            <div className=' py-0.5 px-0.5 relative '>
+
+                                <div className='border border-gray-600 rounded-md'>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div className='col-span-3'>
+                            <div className=' py-0.5 px-0.5 relative '>
+
+                                <div className='border border-gray-600 rounded-md'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
