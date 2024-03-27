@@ -90,7 +90,7 @@ function Card() {
                         <h1 className='text-xl px-2 py-4  text-white'>Where am i</h1>
                         <div className='grid grid-cols-12  sticky top-0 z-50  rounded-md font-[400]'>
 
-                            <div className='col-span-3'>
+                        <div className='col-span-3 lg:col-span-2 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
 
@@ -102,7 +102,7 @@ function Card() {
 
                                 </div>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='col-span-3 lg:col-span-2 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
                                     <div className='  rounded-md bg-[#555555]'>
@@ -113,7 +113,7 @@ function Card() {
 
                                 </div>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='col-span-3 lg:col-span-4 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
                                     <div className=' border-gray-600 rounded-md bg-[#555555]'>
@@ -124,7 +124,7 @@ function Card() {
 
                                 </div>
                             </div>
-                            <div className='col-span-3'>
+                            <div className='col-span-3 lg:col-span-4 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
                                     <div className=' border-gray-600 rounded-md bg-[#555555]'>
