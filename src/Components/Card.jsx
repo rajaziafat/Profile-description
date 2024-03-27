@@ -88,13 +88,13 @@ function Card() {
                 <div className='col-span-12 md:col-span-6 h-[500px] lg:h-[700px] overflow-y-auto px-2 '>
                     <div className='col-span-12 sticky top-0 z-50 bg-[#333] '>
                         <h1 className='text-xl px-2 py-2  text-white'>Where am i</h1>
-                        <div className='grid grid-cols-12  sticky top-0 z-50 bg-[#21c55e] rounded-md'>
+                        <div className='grid grid-cols-12  sticky top-0 z-50  rounded-md font-bold'>
 
                             <div className='col-span-3'>
                                 <div className=' px-1 relative '>
 
 
-                                    <div className=''>
+                                    <div className='border border-white rounded-md'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>From</p>
                                     </div>
 
@@ -105,7 +105,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' px-1 relative '>
 
-                                    <div className=''>
+                                    <div className='border border-white rounded-md'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>To</p>
                                     </div>
 
@@ -116,7 +116,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' px-1 relative '>
 
-                                    <div className=''>
+                                    <div className='border border-white rounded-md'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>Country</p>
                                     </div>
 
@@ -127,7 +127,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' px-1 relative '>
 
-                                    <div className=''>
+                                    <div className='border border-white rounded-md'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>City</p>
                                     </div>
 
