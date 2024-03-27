@@ -91,7 +91,7 @@ function Card() {
                             <h1 className='text-xl px-2 py-2  text-white'>Where am i</h1>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                                 <div className='border border-white rounded-md'>
@@ -103,7 +103,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                                 <div className='border border-white rounded-md'>
@@ -115,7 +115,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                                 <div className='border border-white rounded-md'>
@@ -127,7 +127,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                                 <div className='border border-white rounded-md'>
@@ -143,7 +143,7 @@ function Card() {
                     <div className='grid grid-cols-12'>
                       
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                                 <div className='border border-white rounded-md'>
@@ -155,7 +155,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                                 <div className='border border-white rounded-md'>
@@ -167,7 +167,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                                 <div className='border border-white rounded-md'>
@@ -179,7 +179,7 @@ function Card() {
                             </div>
                         </div>
                         <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                            <div className='py-2 px-2 relative mt-2'>
+                            <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                                 <div className='border border-white rounded-md'>
@@ -194,7 +194,7 @@ function Card() {
                     <div className='grid grid-cols-12'>
                       
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
@@ -206,7 +206,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
@@ -218,7 +218,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
@@ -230,7 +230,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
@@ -245,7 +245,7 @@ function Card() {
                   <div className='grid grid-cols-12'>
                       
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
@@ -257,7 +257,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
@@ -269,7 +269,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
@@ -281,7 +281,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
@@ -296,7 +296,7 @@ function Card() {
                   <div className='grid grid-cols-12'>
                       
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
@@ -308,7 +308,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
@@ -320,7 +320,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
@@ -332,7 +332,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
@@ -347,7 +347,7 @@ function Card() {
                   <div className='grid grid-cols-12'>
                       
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative'>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
@@ -359,7 +359,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
@@ -371,7 +371,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
@@ -383,7 +383,7 @@ function Card() {
                           </div>
                       </div>
                       <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative mt-2'>
+                          <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
