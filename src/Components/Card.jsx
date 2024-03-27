@@ -87,7 +87,7 @@ function Card() {
 
                 <div className='col-span-12 md:col-span-6 h-[500px] lg:h-[700px] overflow-y-auto px-2 '>
                     <div className='col-span-12 sticky top-0 z-50 bg-[#333] '>
-                        <h1 className='text-xl px-2 py-1  text-white'>Where am i</h1>
+                        <h1 className='text-xl px-2 py-4  text-white'>Where am i</h1>
                         <div className='grid grid-cols-12  sticky top-0 z-50  rounded-md font-[400]'>
 
                             <div className='col-span-3'>
@@ -105,7 +105,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='  rounded-md bg-[#555555]'>
+                                    <div className='  rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>To</p>
                                     </div>
 
@@ -116,7 +116,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className=' border-gray-600 rounded-md bg-[#555555]'>
+                                    <div className=' border-gray-600 rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>Country</p>
                                     </div>
 
@@ -127,7 +127,7 @@ function Card() {
                             <div className='col-span-3'>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className=' border-gray-600 rounded-md bg-[#555555]'>
+                                    <div className=' border-gray-600 rounded-md bg-[#555555]'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>City</p>
                                     </div>
 
@@ -141,7 +141,7 @@ function Card() {
 
                     <div className='grid grid-cols-12 mt-2 '>
 
-                        <div className='col-span-3'>
+                        <div className='col-span-2'>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -152,7 +152,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-2'>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -163,7 +163,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-4'>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -174,7 +174,7 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-4'>
                             <div className=' py-0.5 px-0.5 relative '>
 
                                 <div className='border border-gray-600 rounded-md'>
@@ -187,12 +187,12 @@ function Card() {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-12'>
+                    <div className='grid grid-cols-12  '>
 
-                        <div className='col-span-3'>
+                        <div className='col-span-2'>
                             <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600  rounded-md bg-[#3e6b44]'>
+                                <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
@@ -200,10 +200,10 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-2'>
                             <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
+                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
@@ -211,10 +211,10 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-4'>
                             <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
+                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
@@ -222,10 +222,10 @@ function Card() {
 
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-4'>
                             <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 bg-[#3e6b44] rounded-md'>
+                            <div className='border border-gray-600 rounded-md bg-[#3e6b44]'>
                                     <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
@@ -234,197 +234,197 @@ function Card() {
                             </div>
                         </div>
                     </div>
-                    <div className='grid grid-cols-12'>
+                    <div className='grid grid-cols-12  '>
 
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                    </div>
+    </div>
+</div>
+</div>
 
-                    <div className='grid grid-cols-12'>
+<div className='grid grid-cols-12  '>
 
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                    </div>
+    </div>
+</div>
+</div>
 
-                    <div className='grid grid-cols-12'>
+<div className='grid grid-cols-12  '>
 
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                    </div>
+    </div>
+</div>
+</div>
 
-                    <div className='grid grid-cols-12'>
+<div className='grid grid-cols-12  '>
 
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-2'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                        <div className='col-span-3'>
-                            <div className=' py-0.5 px-0.5 relative '>
+    </div>
+</div>
+<div className='col-span-4'>
+    <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='border border-gray-600 rounded-md'>
-                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
-                                </div>
+        <div className='border border-gray-600 rounded-md'>
+            <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
+        </div>
 
 
 
-                            </div>
-                        </div>
-                    </div>
+    </div>
+</div>
+</div>
 
 
 
