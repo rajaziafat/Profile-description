@@ -27,7 +27,7 @@ function Card() {
                                     <div className="flex justify-between w-full text-white">
                                         <div>
                                             <p className='text-lg '>InDifferent Studios</p>
-                                            <p className='text-sm '>Peter Bob  </p>
+                                            <p className='text-[12px] md:text-sm  '>Peter Bob  </p>
                                             <p className='text-xs md:text-sm mt-2  opacity-80'>Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography</p>
                                         </div>
                                         <div className='cursor-pointer'>
@@ -90,48 +90,48 @@ function Card() {
                         <div className='col-span-12'>
                             <h1 className='text-xl px-2 py-2  text-white'>Where am i</h1>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                                <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                                <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                                <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
 
@@ -142,48 +142,48 @@ function Card() {
 
                     <div className='grid grid-cols-12'>
                       
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                                <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
                                 <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                                <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                                 </div>
 
 
 
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                        <div className='col-span-3'>
                             <div className='py-2 px-2 relative '>
-                                <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                                <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                                 <div className='border border-white rounded-md'>
-                                    <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                    <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                                 </div>
 
 
@@ -193,48 +193,48 @@ function Card() {
                     </div>
                     <div className='grid grid-cols-12'>
                       
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                              <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                               </div>
 
 
@@ -242,50 +242,51 @@ function Card() {
                           </div>
                       </div>
                   </div>
+
                   <div className='grid grid-cols-12'>
                       
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                              <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                               </div>
 
 
@@ -293,50 +294,51 @@ function Card() {
                           </div>
                       </div>
                   </div>
+
                   <div className='grid grid-cols-12'>
                       
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                              <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                               </div>
 
 
@@ -344,50 +346,51 @@ function Card() {
                           </div>
                       </div>
                   </div>
+
                   <div className='grid grid-cols-12'>
                       
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
-                          <div className='py-2 px-2 relative'>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
+                      <div className='col-span-3'>
+                          <div className='py-2 px-2 relative '>
+                              <label className="block text-[12px] md:text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> From</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>1.03.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>1.03.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
                               <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> To</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>2.04.2024</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm    text-white'>2.04.2024</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> Country</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>United States</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>United States</p>
                               </div>
 
 
 
                           </div>
                       </div>
-                      <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                      <div className='col-span-3'>
                           <div className='py-2 px-2 relative '>
-                              <label className="block text-sm text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
+                              <label className="block text-[12px] md:text-sm  text-white absolute top-1 z-10 -mt-2 ml-2 bg-[#333] px-1"> City</label>
 
                               <div className='border border-white rounded-md'>
-                                  <p className='py-1 px-2 text-sm   text-white'>Los Angeles</p>
+                                  <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>Los Angeles</p>
                               </div>
 
 
@@ -395,8 +398,9 @@ function Card() {
                           </div>
                       </div>
                   </div>
-             
-                 
+
+
+
 
 
                 </div>
