@@ -94,7 +94,7 @@ function Card() {
                                 <div className=' py-0.5 px-0.5 relative '>
 
 
-                                <div className='rounded-md bg-gray-500 bg-opacity-40'>
+                                <div className='rounded-md bg-gray-400 bg-opacity-40'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm   text-white'>From</p>
                                     </div>
 
@@ -105,7 +105,7 @@ function Card() {
                             <div className='col-span-3 lg:col-span-2 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                    <div className='rounded-md bg-gray-500 bg-opacity-40'>
+                                    <div className='rounded-md bg-gray-400 bg-opacity-40'>
                                         <p className='py-1 px-2 text-xs md:text-sm text-white'>To</p>
                                     </div>
 
@@ -117,7 +117,7 @@ function Card() {
                             <div className='col-span-3 lg:col-span-4 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='rounded-md bg-gray-500 bg-opacity-40'>
+                                <div className='rounded-md bg-gray-400 bg-opacity-40'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap  overflow-x-auto  text-white'>Country</p>
                                     </div>
 
@@ -128,7 +128,7 @@ function Card() {
                             <div className='col-span-3 lg:col-span-4 '>
                                 <div className=' py-0.5 px-0.5 relative '>
 
-                                <div className='rounded-md bg-gray-500 bg-opacity-40'>
+                                <div className='rounded-md bg-gray-400 bg-opacity-40'>
                                         <p className='py-1 px-2 text-[12px] md:text-sm  whitespace-nowrap   overflow-x-auto text-white'>City</p>
                                     </div>
 
